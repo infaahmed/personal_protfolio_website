@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    text-decoration: none !important;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    transition: all 0.4s ease;
+}
+
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #eeeeeeba;
+}
+
+main{
+    padding: 0 7%;
+}
+
+/* ######################## LOADERS ######################### */
+#loader{
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    background-image: url(img/giphy.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 40%;
+}
+
+
+
+
+
+
+
+
+/* ################### HEADER ################### */
+
+header{
+    width: 100%;
+    height: 7.5rem;
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 7%;
+}
+
+.logo{
+    font-size: 3rem !important;
+    text-shadow: 2px 3px 2px rgba(238, 245, 255, .2);
+}
+
+
+.navbar ul li a{
+    font-size: 1.8rem;
+    margin-left: 2rem;
+    color: #fff !important;
+    position: relative;
+}
+
+.navbar ul li a:hover{
+    color: #D5C455 !important;
+}
+
+.navbar ul li a.active{
+    color: #D5C455 !important;
+}
+
+.navbar ul li a::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    left: 0;
+    bottom: -.3rem;
+    height: .22rem !important;
+    background-color: #D5C455 !important; 
+    transition: all .3s ease;
+}
+
+.navbar ul li a.active::before,
+.navbar ul li a:hover::before{
+    width: 100%;
+}
+
+.menu{
+    font-size: 3rem !important;
+    cursor: pointer;
+    display: none;
+}
+
+
+/* ################## SECTION-1 / HOME ################# */
+#home{
+    width: 100%;
+    min-height: calc(100vh - 7.5rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home_content{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home_content img{
+    position: relative;
+    object-fit: cover;
+    object-position: top;
+    width: 42rem !important;
+    height: 42rem;
+    border-radius: 56% 44% 55% 45% / 45% 10% 90% 55%;
+    animation-name: radiuis;
+    animation-duration: 4s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+@keyframes radiuis {
+    0%,100%{
+        border-radius: 56% 44% 55% 45% / 45% 10% 90% 55%;
+    }
+
+    50%{
+        border-radius: 65% 35% 19% 81% / 35% 63% 37% 65%  ;
+    }
+}
+
+
+#home span{
+    color: #D5C455;
+}
+
+.icons a{
+    color: #333;
+    transition: all 0.3s ease !important;
+}
+
+.icons a:hover i{
+    color: #D5C455;
+}
+
+
+
+
+
+/* #################### SECTION-2 / ABOUT ################## */
+.sec_heading{
+    text-align: center;
+    padding-top: 10rem;
+}
+
+.sec_heading h3{
+    font-size: 4rem;
+    font-weight: 600;
+    position: relative;
+}
+
+
+.testimonial_container{
+    overflow-x: hidden;
+    margin-bottom: 5rem;
+}
+
+.single-slide{
+    margin: 2rem 0;
+    padding-top: 2rem;
+    background-color: #fff;
+}
+
+.testimonial_image{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 1rem;
+}
+
+.testimonial_image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 5px solid #D5C455;
+}
+
+.testimonial_info{
+    text-align: center;
+}
+
+.testimonial_info h4{
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+.testimonial_info p{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #D5C455;
+}
+
+.testimonial_body p{
+    font-size: 1.6rem;
+}
+
+.testimonial_body{
+    padding: 2rem;
+    text-align: center;
+}
+
+
+/* ############## SECTION-3 / SERVICE ################ */
+.service_item i{
+    font-size: 5rem;
+    color: #D5C455;
+}
+
+.service_item h3{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.service_item p{
+    font-size: 1.6rem;
+    margin-top: 2rem;
+}
+
+#Service_Inner:hover{
+    background-color: #D5C455 !important;
+}
+
+#Service_Inner:hover i{
+    color: #fff !important;
+}
+
+#Service_Inner:hover h3{
+    color: #fff !important;
+}
+
+#Service_Inner:hover p{
+    color: #fff !important;
+}
+
+
+/* ############# SECTION-5 / RPOTFOLIO ############# */
+
+#inner_protfolio_item{
+    opacity: 0;
+}
+
+#protfolio_item:hover{
+    scale: .95;
+}
+
+#protfolio_item:hover #inner_protfolio_item{
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+/* ###################### MEDIA QUERIES ####################### */
+
+/* responsive for tablate */
+
+@media (max-width: 1024px) {
+    .home_content {
+        width: 100%;
+    }
+    #name{
+        font-size: 3rem !important;
+    }
+
+    #dynamic_text{
+        font-size: 3.8rem !important;
+    }
+
+    .home_content img{
+        width: 35rem !important;
+        height: 35rem !important;
+    }
+}
+
+@media (max-width: 768px){
+    html{
+        font-size: 55%;
+    }
+
+    header{
+        z-index: 1000;
+    }
+
+    .menu{
+        display: block !important;
+    }
+
+    header .navbar{
+        position: fixed;
+        top: 6rem !important;
+        left: -120rem;
+        width: 100%;
+        background-color: #222222;
+        z-index: 0;
+    }
+
+    header .navbar ul{
+        padding: 1% 6.5%;
+        display: flex;
+        flex-flow: column;
+    }
+
+    header .navbar ul li a {
+        display: block;
+        margin: 1rem 0;
+        padding: .8rem 0;
+        font-size: 1.7rem !important;
+    }
+
+    header .navbar ul li a::before{
+        width: 0 !important;
+    }
+
+    .fa-times{
+        transform: rotate(180deg) !important;
+    }
+
+    .nav-toggle{
+        left: 0 !important;
+    }
+
+    .home_content{
+        width: 100%;
+    }
+    #name{
+        font-size: 4rem !important;
+    }
+
+    #dynamic_text{
+        font-size: 4rem !important;
+    }
+
+    .home_content img{
+        width: 30rem !important;
+        height: 30rem !important;
+    }
+}
+
+
+
+
+
+
+
+@media (max-width:500px){
+    #name{
+        font-size: 3rem !important;
+    }
+
+    #dynamic_text{
+        font-size: 3rem !important;
+    }
+
+    #about .intro{
+        font-size: 2.2rem !important;
+    }
+
+    .sec_heading h3{
+        font-size: 3rem !important;
+    }
+}

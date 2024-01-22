@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>diZcode</title>
+    <!-- font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google fonts cdn link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Rowdies:wght@300&display=swap" rel="stylesheet">
+    <!-- animation on scroll css cdn link-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- bootstrap css link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- swiper.js css cdn link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <!-- cumtom css link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ########################### PRELOADER ######################### -->
+    <div id="loader">
+        
+    </div>
+    <!-- ########################### PRELOADER ######################### -->
+    <!-- ################## HEADER ################## -->
+    <header class="shadow sticky-top">
+        <a href="index.html" class="logo text-light fw-bolder">diZ<span style="color: #D5C455;">code.</span></a>
+
+        <i class="fa-solid fa-bars text-light menu"></i>
+
+        <nav class="navbar">
+            <ul class="d-flex nav">
+                <li><a href="#home" class="active home">home</a></li>
+                <li><a href="#about" class="about">about</a></li>
+                <li><a href="#services" class="services">services</a></li>
+                <li><a href="#experience" class="experience">experience</a></li>
+                <li><a href="#works" class="works">works</a></li>
+                <li><a href="#contact" class="contact">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- #################### HOME ###################### -->
+        <section id="home">
+            <div class="home_content">
+                <!-- text -->
+                <div>
+                    <h1 id="name" style="font-size: 5rem; font-weight: 500;">hi! i,am infa ahmed</h1>
+                    <h1 id="dynamic_text" style="font-size: 5rem; text-transform: lowercase;">a <span class="text-capitalize dynamic_text" style="font-weight: 700;"></span></h1>
+
+                    <div class="mt-5">
+                        <a href="#about"><button class="btn px-4 py-2 fs-3 text-light text-uppercase shadow-lg" style="background-color: #D5C455;">More About me</button></a>
+
+                        <a href="#contact"><button class="btn btn-outline-dark px-4 py-2 fs-3 ms-3 ms-md-4 text-uppercase shadow-lg">hire me</button></a>
+                    </div>
+
+                    <div class="mt-5 icons">
+                        <a href="https://www.facebook.com/infaahmeddeepo/" target="_blank"><i class="fa-brands fa-square-facebook me-3" style="font-size: 3.5rem;"></i></a>
+                        <a href="https://www.instagram.com/infa_1602" target="_blank"><i class="fa-brands fa-square-instagram mx-3" style="font-size: 3.5rem;"></i></a>
+                        <a href="https://www.youtube.com/channel/UCoBqlGVB_tXRNP39_dvToZA" target="_blank"><i class="fa-brands fa-square-youtube mx-3" style="font-size: 3.5rem;"></i></a>
+                        <a href="https://github.com/infaahmed" target="_blank"><i class="fa-brands fa-square-github mx-3" style="font-size: 3.5rem;"></i></a>
+                    </div>
+                </div>
+                <!-- image -->
+                <div class="d-none d-md-block">
+                    <img src="img/my_image-1.jpg" alt="image" class="shadow-lg">
+                </div>
+            </div>
+        </section>
+
+        <!-- ############## SECTION-2 / ABOUT ############## -->
+
+        <section id="about" style="min-height: 100vh;">
+            <div class="sec_heading my-3 mb-5">
+                <h3>about us</h3>
+            </div>
+
+            <!-- ###################### NUMBER COUNTER ##################### -->
+            <div class="row" style="margin-top: 9rem;">
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-6"  style="height: 18rem;">
+                            <div class="mx-auto bg-white d-flex flex-column justify-content-center align-items-center" style="width: 98%; height: 90%;">
+                                <h1 style="font-size: 3rem; color: #D5C455;" class="count fw-bold">5,000</h1>
+                                <p class="fs-4">Happy Clients</p>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-md-6" style="height: 18rem;">
+                            <div class="mx-auto bg-white d-flex flex-column justify-content-center align-items-center" style="width: 98%; height: 90%;">
+                                <h1 style="font-size: 3rem; color: #D5C455;" class="count fw-bold">1,200</h1>
+                                <p class="fs-4">Project Done</p>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-md-6" style="height: 18rem;">
+                            <div class="mx-auto bg-white d-flex flex-column justify-content-center align-items-center" style="width: 98%; height: 90%;">
+                                <h1 style="font-size: 3rem; color: #D5C455;" class="count fw-bold">500</h1>
+                                <p class="fs-4">Cups Of Coffee</p>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-md-6" style="height: 18rem;">
+                            <div class="mx-auto bg-white d-flex flex-column justify-content-center align-items-center" style="width: 98%; height: 90%;">
+                                <h1 style="font-size: 3rem; color: #D5C455;" class="count fw-bold">527</h1>
+                                <p class="fs-4">Working Hours</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000"
+                data-aos-easing="ease-in-out">
+                    <p class="text-uppercase fs-3 fw-semibold" style="letter-spacing: .2rem; color: #D5C455;">about me</p>
+                    <h1 style="font-size: 4rem;" class="fw-semibold my-3 intro">A UI/UX Designer & Web Developer Based in Philippines</h1>
+                    <p class="text-black-50 fs-4 mt-3">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+
+                    <div class="row mt-5 mb-1">
+                        <div class="col-lg-6">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p class="fw-semibold fs-4">Name:</p>
+                                <p class="fw-semibold fs-5 ms-5" style="color: #D5C455;">Infa Ahmed Deepo</p>
+                            </div>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p class="fw-semibold fs-4">date of birth:</p>
+                                <p class="fw-semibold fs-5 ms-5" style="color: #D5C455;">02 Aug 2000</p>
+                            </div>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p class="fw-semibold fs-4">address:</p>
+                                <p class="fw-semibold fs-5 ms-5" style="color: #D5C455;">Adamdighi Bogura</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 ms-auto">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p class="fw-semibold fs-4">Zipcode:</p>
+                                <p class="fw-semibold fs-5 ms-5" style="color: #D5C455;">5890</p>
+                            </div>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p class="fw-semibold fs-4">email:</p>
+                                <p class="fw-semibold fs-5 ms-5" style="color: #D5C455;">info.infa99@gmail.com</p>
+                            </div>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p class="fw-semibold fs-4">phone:</p>
+                                <p class="fw-semibold fs-5 ms-5" style="color: #D5C455;">01643623900</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="btn text-uppercase fs-4 text-light fw-bold py-3 px-4 mt-5" style="letter-spacing: .2rem; background-color: #D5C455;">donwnload cv</button>
+                </div>
+            </div>
+
+
+            <!-- ##################### SKILLS ##################### -->
+            <div style="margin-top: 9rem;">
+                <div class="sec_heading my-3 mb-5">
+                    <p class="text-uppercase fs-3 fw-bold" style="margin-bottom: -.2rem; letter-spacing: .2rem; color: #D5C455;">skills</p>
+                    <h3>my skills</h3>
+                </div>
+
+                <div style="margin-top: 10rem; margin-bottom: 9rem;">
+                    <div class="row">
+                        <div class="col-md-5 mb-5" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                            <div class="text d-flex justify-content-between" style="width: 95%;">
+                                <p class="fs-2 fw-bold">HTML 5</p>
+                                <p class="fs-2 fw-bold">95%</p>
+                            </div>
+                            <div class="position-relative bg-secondary py-2 rounded">
+                                <div class="position-absolute top-0 py-2 rounded" style="width: 95%; background-color: #D5C455;"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-5 mb-5 ms-auto"  data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                            <div class="text d-flex justify-content-between" style="width: 90%;">
+                                <p class="fs-2 fw-bold">CSS 3</p>
+                                <p class="fs-2 fw-bold">90%</p>
+                            </div>
+                            <div class="position-relative bg-secondary py-2 rounded">
+                                <div class="position-absolute top-0 py-2 rounded" style="width: 90%; background-color: #D5C455;"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-5 mb-5"  data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                            <div class="text d-flex justify-content-between" style="width: 80%;">
+                                <p class="fs-2 fw-bold">JAVA SCRIPT</p>
+                                <p class="fs-2 fw-bold">80%</p>
+                            </div>
+                            <div class="position-relative bg-secondary py-2 rounded">
+                                <div class="position-absolute top-0 py-2 rounded" style="width: 80%; background-color: #D5C455;"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-5 mb-5 ms-auto"  data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                            <div class="text d-flex justify-content-between" style="width: 90%;">
+                                <p class="fs-2 fw-bold">BOOTSTRAP 5</p>
+                                <p class="fs-2 fw-bold">90%</p>
+                            </div>
+                            <div class="position-relative bg-secondary py-2 rounded">
+                                <div class="position-absolute top-0 py-2 rounded" style="width: 90%; background-color: #D5C455;"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-5 mb-5"  data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                            <div class="text d-flex justify-content-between" style="width: 85%;">
+                                <p class="fs-2 fw-bold">PHOTOSHOP</p>
+                                <p class="fs-2 fw-bold">85%</p>
+                            </div>
+                            <div class="position-relative bg-secondary py-2 rounded">
+                                <div class="position-absolute top-0 py-2 rounded" style="width: 85%; background-color: #D5C455;"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-5 mb-5 ms-auto"  data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                            <div class="text d-flex justify-content-between" style="width: 95%;">
+                                <p class="fs-2 fw-bold">FIGMA</p>
+                                <p class="fs-2 fw-bold">95%</p>
+                            </div>
+                            <div class="position-relative bg-secondary py-2 rounded">
+                                <div class="position-absolute top-0 py-2 rounded" style="width: 95%; background-color: #D5C455;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- ################## SWIPER ################# -->
+            <div class="testimonial_container mySwiper" data-aos="fade-up" data-aos-delay="100" data-aos-easing="ease-in-out" data-aos-duration="1200">
+                <div class="sec_heading">
+                    <p class="text-uppercase fs-3 fw-bold" style="margin-bottom: -3px; color: #D5C455;">testimonial</p>
+                    <h3 style="margin-bottom: 6rem;">what Clients say</h3>
+                </div>
+
+                <div class="swiper-wrapper">
+                    <div class="single-slide swiper-slide">
+                        <div class="testimonial_image">
+                            <img src="img/person_1.jpg.webp" alt="avatar">
+                        </div>
+                        <div class="testimonial_info">
+                            <h4>abdullah al noman</h4>
+                            <p>autoCad expart</p>
+                        </div>
+                        <div class="testimonial_body">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti deserunt obcaecati sit, atque consequuntur cumque et fuga dicta optio dolores assumenda quo pariatur ipsum excepturi.</p>
+                        </div>
+                    </div>
+                    <div class="single-slide swiper-slide">
+                        <div class="testimonial_image">
+                            <img src="img/person_2.jpg.webp" alt="avatar">
+                        </div>
+                        <div class="testimonial_info">
+                            <h4>raihanul islam rifat</h4>
+                            <p>marketing mannager</p>
+                        </div>
+                        <div class="testimonial_body">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti deserunt obcaecati sit, atque consequuntur cumque et fuga dicta optio dolores assumenda quo pariatur ipsum excepturi.</p>
+                        </div>
+                    </div>
+                    <div class="single-slide swiper-slide">
+                        <div class="testimonial_image">
+                            <img src="img/person_3.jpg.webp" alt="avatar">
+                        </div>
+                        <div class="testimonial_info">
+                            <h4>infa ahmed deepo</h4>
+                            <p>web Developer</p>
+                        </div>
+                        <div class="testimonial_body">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti deserunt obcaecati sit, atque consequuntur cumque et fuga dicta optio dolores assumenda quo pariatur ipsum excepturi.</p>
+                        </div>
+                    </div>
+                    <div class="single-slide swiper-slide">
+                        <div class="testimonial_image">
+                            <img src="img/person_1.jpg.webp" alt="avatar">
+                        </div>
+                        <div class="testimonial_info">
+                            <h4>shakib hossain</h4>
+                            <p>SEO expart</p>
+                        </div>
+                        <div class="testimonial_body">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti deserunt obcaecati sit, atque consequuntur cumque et fuga dicta optio dolores assumenda quo pariatur ipsum excepturi.</p>
+                        </div>
+                    </div>
+                    <div class="single-slide swiper-slide">
+                        <div class="testimonial_image">
+                            <img src="img/person_2.jpg.webp" alt="avatar">
+                        </div>
+                        <div class="testimonial_info">
+                            <h4>sadiqul ahosan</h4>
+                            <p>UI/UX Designer</p>
+                        </div>
+                        <div class="testimonial_body">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti deserunt obcaecati sit, atque consequuntur cumque et fuga dicta optio dolores assumenda quo pariatur ipsum excepturi.</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- ################ SECTION-3 / SERVICES ################## -->
+
+        <section id="services" style="min-height: 100vh;">
+            <div class="sec_heading my-3 mb-5">
+                <p class="text-uppercase fs-3 fw-bold" style="margin-bottom: -.2rem; letter-spacing: .2rem; color: #D5C455;">services</p>
+                <h3>What i do</h3>
+            </div>
+            
+            <!-- service-1 -->
+            <div class="row" style="margin-top: 9rem; margin-bottom: 8rem;">
+                <div class="col-xl-3 col-lg-4 col-sm-6 service_item" data-aos="flip-left" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out"> 
+                    <div class="d-flex flex-column justify-content-center align-items-center p-4 bg-white" style="height: 95%;" type="button" id="Service_Inner">
+                        <i class="fa-solid fa-paintbrush mt-5"></i>
+                        <div class="mt-5 text-center">
+                            <h3>UI/UX design</h3>
+                            <p class="text-black-50 pb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem, ullam magnam? Fugiat impedit voluptatibus reiciendis numquam inventore autem perferendis tempora, suscipit temporibus.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-sm-6 service_item" data-aos="flip-left" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out"> 
+                    <div class="d-flex flex-column justify-content-center align-items-center p-4 bg-white" style="height: 95%;" type="button" id="Service_Inner">
+                        <!-- icon -->
+                        <i class="fa-solid fa-code mt-5"></i>
+                        <div class="mt-5 text-center">
+                            <h3>web development</h3>
+                            <p class="text-black-50 pb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem, ullam magnam? Fugiat impedit voluptatibus reiciendis numquam inventore autem perferendis tempora, suscipit temporibus.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-sm-6 service_item" data-aos="flip-left" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out"> 
+                    <div class="d-flex flex-column justify-content-center align-items-center p-4 bg-white" style="height: 95%;" type="button" id="Service_Inner">
+                        <!-- icon -->
+                        <i class="fa-solid fa-palette mt-5"></i>
+                        <div class="mt-5 text-center">
+                            <h3>graphic design</h3>
+                            <p class="text-black-50 pb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem, ullam magnam? Fugiat impedit voluptatibus reiciendis numquam inventore autem perferendis tempora, suscipit temporibus.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-sm-6 service_item" data-aos="flip-left" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out"> 
+                    <div class="d-flex flex-column justify-content-center align-items-center p-4 bg-white" style="height: 95%;" type="button" id="Service_Inner">
+                        <!-- icon -->
+                        <i class="fa-solid fa-b mt-5"></i>
+                        <div class="mt-5 text-center">
+                            <h3>branding</h3>
+                            <p class="text-black-50 pb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem, ullam magnam? Fugiat impedit voluptatibus reiciendis numquam inventore autem perferendis tempora, suscipit temporibus.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-sm-6 service_item" data-aos="flip-left" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out"> 
+                    <div class="d-flex flex-column justify-content-center align-items-center p-4 bg-white" style="height: 95%;" type="button" id="Service_Inner">
+                        <!-- icon -->
+                        <i class="fa-solid fa-bullhorn mt-5"></i>
+                        <div class="mt-5 text-center">
+                            <h3>marketing</h3>
+                            <p class="text-black-50 pb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem, ullam magnam? Fugiat impedit voluptatibus reiciendis numquam inventore autem perferendis tempora, suscipit temporibus.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-sm-6 service_item" data-aos="flip-left" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">  
+                    <div class="d-flex flex-column justify-content-center align-items-center p-4 bg-white" style="height: 95%;" type="button" id="Service_Inner">
+                        <!-- icon -->
+                        <i class="fa-solid fa-mobile-screen-button mt-5"></i>
+                        <div class="mt-5 text-center">
+                            <h3>mobile app design</h3>
+                            <p class="text-black-50 pb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem, ullam magnam? Fugiat impedit voluptatibus reiciendis numquam inventore autem perferendis tempora, suscipit temporibus.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-sm-6 service_item" data-aos="flip-left" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out"> 
+                    <div class="d-flex flex-column justify-content-center align-items-center p-4 bg-white" style="height: 95%;" type="button" id="Service_Inner">
+                        <!-- icon -->
+                        <i class="fa-brands fa-vimeo mt-5"></i>
+                        <div class="mt-5 text-center">
+                            <h3>visual editor</h3>
+                            <p class="text-black-50 pb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem, ullam magnam? Fugiat impedit voluptatibus reiciendis numquam inventore autem perferendis tempora, suscipit temporibus.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-sm-6 service_item" data-aos="flip-left" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out"> 
+                    <div class="d-flex flex-column justify-content-center align-items-center p-4 bg-white" style="height: 95%;" type="button" id="Service_Inner">
+                        <!-- icon -->
+                        <i class="fa-solid fa-headset mt-5"></i>
+                        <div class="mt-5 text-center">
+                            <h3>IT consultancy</h3>
+                            <p class="text-black-50 pb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem, ullam magnam? Fugiat impedit voluptatibus reiciendis numquam inventore autem perferendis tempora, suscipit temporibus.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PRICEING -->
+            <div>
+                <div class="sec_heading my-3 mb-5">
+                    <p class="text-uppercase fs-3 fw-bold" style="margin-bottom: -.2rem; letter-spacing: .2rem; color: #D5C455;">priceing</p>
+                    <h3>Choose Your Plan</h3>
+                </div>
+
+                <div class="row" style="margin-top: 9rem; margin-bottom: 8rem;">
+                    <div class="col-xl-3 col-lg-4 col-sm-6" data-aos="flip-left" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out"> 
+                        <div class="d-flex flex-column justify-content-center align-items-center p-4 bg-white" style="height: 95%;" type="button">
+                            <div class="d-flex justify-content-center mt-5" style="color: #D5C455;">
+                                <p style="font-size: 1.8rem;">$</p>
+                                <h3 style="font-size: 3.5rem; font-weight: 700;">49</h3>
+                            </div>
+                            <h3 class="text-uppercase fw-bold text-center fs-2">Personal</h3>
+                            <div class="text-center mt-3 pb-5">
+                                <h3 class="py-3 px-2 rounded-3"><span><i class="fa-solid fa-check me-2" style="font-size: 2.5rem; color: #D5C455;"></i></span> Strategic Alliance</h3>
+                                <h3 class="py-3 px-2 rounded-3 bg-secondary-subtle"><span><i class="fa-solid fa-check me-2" style="font-size: 2.5rem; color: #D5C455;"></i></span> Growth Expansion</h3>
+                                <h3 class="py-3 px-2 rounded-3"><span><i class="fa-solid fa-check me-2" style="font-size: 2.5rem; color: #D5C455;"></i></span> Business Planning</h3>
+                                <h3 class="py-3 px-2 rounded-3 bg-secondary-subtle"><span><i class="fa-solid fa-check me-2" style="font-size: 2.5rem; color: #D5C455;"></i></span> Market Positioning</h3>
+                                
+                                <a href="#"><button class="btn px-4 py-3 fs-3 mt-4 fw-semibold text-light text-uppercase shadow" style="background-color: #D5C455;">get started</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-sm-6" data-aos="flip-left" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out"> 
+                        <div class="d-flex flex-column justify-content-center align-items-center p-4 bg-white" style="height: 95%;" type="button">
+                            <div class="d-flex justify-content-center mt-5" style="color: #D5C455;">
+                                <p style="font-size: 1.8rem;">$</p>
+                                <h3 style="font-size: 3.5rem; font-weight: 700;">79</h3>
+                            </div>
+                            <h3 class="text-uppercase fw-bold text-center fs-2">Professional</h3>
+                            <div class="text-center mt-3 pb-5">
+                                <h3 class="py-3 px-2 rounded-3"><span><i class="fa-solid fa-check me-2" style="font-size: 2.5rem; color: #D5C455;"></i></span> Strategic Alliance</h3>
+                                <h3 class="py-3 px-2 rounded-3 bg-secondary-subtle"><span><i class="fa-solid fa-check me-2" style="font-size: 2.5rem; color: #D5C455;"></i></span> Growth Expansion</h3>
+                                <h3 class="py-3 px-2 rounded-3"><span><i class="fa-solid fa-check me-2" style="font-size: 2.5rem; color: #D5C455;"></i></span> Business Planning</h3>
+                                <h3 class="py-3 px-2 rounded-3 bg-secondary-subtle"><span><i class="fa-solid fa-check me-2" style="font-size: 2.5rem; color: #D5C455;"></i></span> Market Positioning</h3>
+                                
+                                <a href="#"><button class="btn px-4 py-3 fs-3 mt-4 fw-semibold text-light text-uppercase shadow" style="background-color: #D5C455;">get started</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-sm-6" data-aos="flip-left" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">  
+                        <div class="d-flex flex-column justify-content-center align-items-center p-4 bg-white" style="height: 95%;" type="button">
+                            <div class="d-flex justify-content-center mt-5" style="color: #D5C455;">
+                                <p style="font-size: 1.8rem;">$</p>
+                                <h3 style="font-size: 3.5rem; font-weight: 700;">109</h3>
+                            </div>
+                            <h3 class="text-uppercase fw-bold text-center fs-2">Medium Business</h3>
+                            <div class="text-center mt-3 pb-5">
+                                <h3 class="py-3 px-2 rounded-3"><span><i class="fa-solid fa-check me-2" style="font-size: 2.5rem; color: #D5C455;"></i></span> Strategic Alliance</h3>
+                                <h3 class="py-3 px-2 rounded-3 bg-secondary-subtle"><span><i class="fa-solid fa-check me-2" style="font-size: 2.5rem; color: #D5C455;"></i></span> Growth Expansion</h3>
+                                <h3 class="py-3 px-2 rounded-3"><span><i class="fa-solid fa-check me-2" style="font-size: 2.5rem; color: #D5C455;"></i></span> Business Planning</h3>
+                                <h3 class="py-3 px-2 rounded-3 bg-secondary-subtle"><span><i class="fa-solid fa-check me-2" style="font-size: 2.5rem; color: #D5C455;"></i></span> Market Positioning</h3>
+                                
+                                <a href="#"><button class="btn px-4 py-3 fs-3 mt-4 fw-semibold text-light text-uppercase shadow" style="background-color: #D5C455;">get started</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-sm-6" data-aos="flip-left" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">  
+                        <div class="d-flex flex-column justify-content-center align-items-center p-4 bg-white" style="height: 95%;" type="button">
+                            <div class="d-flex justify-content-center mt-5" style="color: #D5C455;">
+                                <p style="font-size: 1.8rem;">$</p>
+                                <h3 style="font-size: 3.5rem; font-weight: 700;">149</h3>
+                            </div>
+                            <h3 class="text-uppercase fw-bold text-center fs-2">Gigantic Business</h3>
+                            <div class="text-center mt-3 pb-5">
+                                <h3 class="py-3 px-2 rounded-3"><span><i class="fa-solid fa-check me-2" style="font-size: 2.5rem; color: #D5C455;"></i></span> Strategic Alliance</h3>
+                                <h3 class="py-3 px-2 rounded-3 bg-secondary-subtle"><span><i class="fa-solid fa-check me-2" style="font-size: 2.5rem; color: #D5C455;"></i></span> Growth Expansion</h3>
+                                <h3 class="py-3 px-2 rounded-3"><span><i class="fa-solid fa-check me-2" style="font-size: 2.5rem; color: #D5C455;"></i></span> Business Planning</h3>
+                                <h3 class="py-3 px-2 rounded-3 bg-secondary-subtle"><span><i class="fa-solid fa-check me-2" style="font-size: 2.5rem; color: #D5C455;"></i></span> Market Positioning</h3>
+                                
+                                <a href="#"><button class="btn px-4 py-3 fs-3 mt-4 fw-semibold text-light text-uppercase shadow" style="background-color: #D5C455;">get started</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ################# SECTION-4 / EXPERIENCE ################# -->
+        
+        <section id="experience" style="min-height: 100vh;">
+            <div class="sec_heading my-3 mb-5">
+                <p class="text-uppercase fs-3 fw-bold" style="margin-bottom: -.2rem; letter-spacing: .2rem; color: #D5C455;">EXPERIENCE</p>
+                <h3>experience</h3>
+            </div>
+
+            <div class="row" style="margin-top: 9rem; margin-bottom: 7rem;" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                <div class="col-md-6">
+                    <div style="height: 94%;" class="bg-white p-5">
+                        <p style="color: #D5C455; font-size: 2rem;">2014-2015</p>
+                        <h3 style="font-size: 2.5rem;">Master Degree of Design</h3>
+
+                        <div class="d-flex justify-content-start align-items-center">
+                            <i class="fa-solid fa-location-dot fs-4 text-black-50"></i>
+                            <p class="fs-4 text-black-50 ms-2" style="margin-top: 1.1rem;">Google Inc.</p>
+                        </div>
+
+                        <p class="text-black-50 fs-3">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div style="height: 94%;" class="bg-white p-5">
+                        <p style="color: #D5C455; font-size: 2rem;">2014-2015</p>
+                        <h3 style="font-size: 2.5rem;">Art & Creative Director</h3>
+
+                        <div class="d-flex justify-content-start align-items-center">
+                            <i class="fa-solid fa-location-dot fs-4 text-black-50"></i>
+                            <p class="fs-4 text-black-50 ms-2" style="margin-top: 1.1rem;">Google Inc.</p>
+                        </div>
+
+                        <p class="text-black-50 fs-3">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div style="height: 94%;" class="bg-white p-5">
+                        <p style="color: #D5C455; font-size: 2rem;">2015-2017</p>
+                        <h3 style="font-size: 2.5rem;">Bachelor's Degree of C.A</h3>
+
+                        <div class="d-flex justify-content-start align-items-center">
+                            <i class="fa-solid fa-location-dot fs-4 text-black-50"></i>
+                            <p class="fs-4 text-black-50 ms-2" style="margin-top: 1.1rem;">Google Inc.</p>
+                        </div>
+
+                        <p class="text-black-50 fs-3">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div style="height: 94%;" class="bg-white p-5">
+                        <p style="color: #D5C455; font-size: 2rem;">2017-2018</p>
+                        <h3 style="font-size: 2.5rem;">Wordpress Developer</h3>
+
+                        <div class="d-flex justify-content-start align-items-center">
+                            <i class="fa-solid fa-location-dot fs-4 text-black-50"></i>
+                            <p class="fs-4 text-black-50 ms-2" style="margin-top: 1.1rem;">Google Inc.</p>
+                        </div>
+
+                        <p class="text-black-50 fs-3">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div style="height: 94%;" class="bg-white p-5">
+                        <p style="color: #D5C455; font-size: 2rem;">2018-2020</p>
+                        <h3 style="font-size: 2.5rem;">Diploma in Computer</h3>
+
+                        <div class="d-flex justify-content-start align-items-center">
+                            <i class="fa-solid fa-location-dot fs-4 text-black-50"></i>
+                            <p class="fs-4 text-black-50 ms-2" style="margin-top: 1.1rem;">Google Inc.</p>
+                        </div>
+
+                        <p class="text-black-50 fs-3">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                    </div>
+                </div>
+                <div class="col-md-6"> 
+                    <div style="height: 94%;" class="bg-white p-5">
+                        <p style="color: #D5C455; font-size: 2rem;">2019-2022</p>
+                        <h3 style="font-size: 2.5rem;">UI/UX Designer</h3>
+
+                        <div class="d-flex justify-content-start align-items-center">
+                            <i class="fa-solid fa-location-dot fs-4 text-black-50"></i>
+                            <p class="fs-4 text-black-50 ms-2" style="margin-top: 1.1rem;">Google Inc.</p>
+                        </div>
+
+                        <p class="text-black-50 fs-3">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ################## SECTION-5 / PROTFOLIO ################# -->
+
+        <section id="works" style="min-height: 100vh;">
+            <div class="sec_heading my-3 mb-5">
+                <p class="text-uppercase fs-3 fw-bold" style="margin-bottom: -.2rem; letter-spacing: .2rem; color: #D5C455;">WORKS</p>
+                <h3>protfolio</h3>
+            </div>
+
+            <div class="row" style="margin-top: 9rem; margin-bottom: 8rem;" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                <div class="col-lg-4 col-md-6" style="height: 40rem;" type="button">
+                    <div class="mx-auto" style="width: 98%; height: 94%; background-image: url(img/project-9.jpg); background-size: cover; background-position: center;" id="protfolio_item">
+                        <div class="d-flex flex-column justify-content-center align-items-center text-light text-center" style="background-color: #d5c455e0; width: 100%; height: 100%;" id="inner_protfolio_item">
+                            <h4 style="font-size: 3rem;">Branding & Illustration Design</h4>
+                            <h3 class="fw-bold mt-4" style="font-size: 2rem; letter-spacing: 3px;">WEB DESIGN</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" style="height: 40rem;" type="button">
+                    <div class="mx-auto" style="width: 98%; height: 94%; background-image: url(img/project-8.jpg); background-size: cover; background-position: center;" id="protfolio_item">
+                        <div class="d-flex flex-column justify-content-center align-items-center text-light text-center" style="background-color: #d5c455e0; width: 100%; height: 100%;" id="inner_protfolio_item">
+                            <h4 style="font-size: 3rem;">Branding & Illustration Design</h4>
+                            <h3 class="fw-bold mt-4" style="font-size: 2rem; letter-spacing: 3px;">WEB DESIGN</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" style="height: 40rem;" type="button">
+                    <div class="mx-auto" style="width: 98%; height: 94%; background-image: url(img/project-7.jpg); background-size: cover; background-position: center;" id="protfolio_item">
+                        <div class="d-flex flex-column justify-content-center align-items-center text-light text-center" style="background-color: #d5c455e0; width: 100%; height: 100%;" id="inner_protfolio_item">
+                            <h4 style="font-size: 3rem;">Branding & Illustration Design</h4>
+                            <h3 class="fw-bold mt-4" style="font-size: 2rem; letter-spacing: 3px;">WEB DESIGN</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" style="height: 40rem;" type="button">
+                    <div class="mx-auto" style="width: 98%; height: 94%; background-image: url(img/project-6.jpg); background-size: cover; background-position: center;" id="protfolio_item">
+                        <div class="d-flex flex-column justify-content-center align-items-center text-light text-center" style="background-color: #d5c455e0; width: 100%; height: 100%;" id="inner_protfolio_item">
+                            <h4 style="font-size: 3rem;">Branding & Illustration Design</h4>
+                            <h3 class="fw-bold mt-4" style="font-size: 2rem; letter-spacing: 3px;">WEB DESIGN</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" style="height: 40rem;" type="button">
+                    <div class="mx-auto" style="width: 98%; height: 94%; background-image: url(img/project-5.jpg); background-size: cover; background-position: center;" id="protfolio_item">
+                        <div class="d-flex flex-column justify-content-center align-items-center text-light text-center" style="background-color: #d5c455e0; width: 100%; height: 100%;" id="inner_protfolio_item">
+                            <h4 style="font-size: 3rem;">Branding & Illustration Design</h4>
+                            <h3 class="fw-bold mt-4" style="font-size: 2rem; letter-spacing: 3px;">WEB DESIGN</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" style="height: 40rem;" type="button">
+                    <div class="mx-auto" style="width: 98%; height: 94%; background-image: url(img/project-6.jpg); background-size: cover; background-position: center;" id="protfolio_item">
+                        <div class="d-flex flex-column justify-content-center align-items-center text-light text-center" style="background-color: #d5c455e0; width: 100%; height: 100%;" id="inner_protfolio_item">
+                            <h4 style="font-size: 3rem;">Branding & Illustration Design</h4>
+                            <h3 class="fw-bold mt-4" style="font-size: 2rem; letter-spacing: 3px;">WEB DESIGN</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" style="height: 40rem;" type="button"> 
+                    <div class="mx-auto" style="width: 98%; height: 94%; background-image: url(img/project-7.jpg); background-size: cover; background-position: center;" id="protfolio_item">
+                        <div class="d-flex flex-column justify-content-center align-items-center text-light text-center" style="background-color: #d5c455e0; width: 100%; height: 100%;" id="inner_protfolio_item">
+                            <h4 style="font-size: 3rem;">Branding & Illustration Design</h4>
+                            <h3 class="fw-bold mt-4" style="font-size: 2rem; letter-spacing: 3px;">WEB DESIGN</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" style="height: 40rem;" type="button">
+                    <div class="mx-auto" style="width: 98%; height: 94%; background-image: url(img/project-8.jpg); background-size: cover; background-position: center;" id="protfolio_item">
+                        <div class="d-flex flex-column justify-content-center align-items-center text-light text-center" style="background-color: #d5c455e0; width: 100%; height: 100%;" id="inner_protfolio_item">
+                            <h4 style="font-size: 3rem;">Branding & Illustration Design</h4>
+                            <h3 class="fw-bold mt-4" style="font-size: 2rem; letter-spacing: 3px;">WEB DESIGN</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" style="height: 40rem;" type="button">
+                    <div class="mx-auto" style="width: 98%; height: 94%; background-image: url(img/project-9.jpg); background-size: cover; background-position: center;" id="protfolio_item">
+                        <div class="d-flex flex-column justify-content-center align-items-center text-light text-center" style="background-color: #d5c455e0; width: 100%; height: 100%;" id="inner_protfolio_item">
+                            <h4 style="font-size: 3rem;">Branding & Illustration Design</h4>
+                            <h3 class="fw-bold mt-4" style="font-size: 2rem; letter-spacing: 3px;">WEB DESIGN</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ############## SECTION-6 / CONATCT ###################### -->
+
+        <section id="contact" style="min-height: 100vh;">
+            <div class="sec_heading my-3 mb-5">
+                <p class="text-uppercase fs-3 fw-bold" style="margin-bottom: -.2rem; letter-spacing: .2rem; color: #D5C455;">CONATCT</p>
+                <h3>contact us</h3>
+            </div>
+
+            <div class="row" style="margin-top: 8rem; margin-bottom: 8rem;">
+                <div class="col-md-6 mt-5" style="min-height: 65vh;" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                    <div class="p-1 bg-white" style="height: 100%;">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57949.01579093683!2d89.00092963088439!3d24.801839375582446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fc6138540583f3%3A0x20be9e4b41fbb0c8!2sAdamdighi%20Bazar!5e0!3m2!1sen!2sbd!4v1701850885033!5m2!1sen!2sbd" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mt-5" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                    <div class="p-4 bg-white">
+                        <h3 class="fw-bold mt-2" style="font-size: 3rem;">Contact us</h3>
+                        <p class="fs-3 text-black-50">We're open for any suggestion or just to have a chat</p>
+                        <div class="row mt-5">
+                            <div class="col-md-4 mt-3">
+                                <h5 class="fw-bold fs-4">ADDRESS:</h5>
+                                <span class="fs-5 text-black-50">5890-Adamdighi, Bogura</span>
+                            </div>
+                            <div class="col-md-4 mt-3">
+                                <h5 class="fw-bold fs-4">EMAIL:</h5>
+                                <span class="fs-5 text-black-50">info.infa99@gmai.com</span>
+                            </div>
+                            <div class="col-md-4 mt-3">
+                                <h5 class="fw-bold fs-4">PHONE:</h5>
+                                <span class="fs-5 text-black-50">016 43 623900</span>
+                            </div>
+                        </div>
+
+                        <form action="#" class="mt-3">
+                            <input type="text" style="border: none; outline: none; border-bottom: 1px solid rgba(128, 128, 128, 0.211); width: 100%; font-size: 1.5rem;" class="p-3 ps-3 text-black-50 mt-4" placeholder="Name">
+
+                            <input type="email" style="border: none; outline: none; border-bottom: 1px solid rgba(128, 128, 128, 0.211); width: 100%; font-size: 1.5rem;" class="p-3 ps-3 text-black-50 mt-4" placeholder="email">
+
+                            <input type="text" style="border: none; outline: none; border-bottom: 1px solid rgba(128, 128, 128, 0.211); width: 100%; font-size: 1.5rem;" class="p-3 ps-3 text-black-50 mt-4" placeholder="subject">
+
+                            <textarea rows="3" class="ps-3 mt-4" style="font-size: 1.5rem; border-bottom: 1px solid rgba(128, 128, 128, 0.211); width: 100%; " placeholder="create a massage"></textarea>
+                        </form>
+
+                        <button class="btn px-4 py-2 fs-2 mt-3 text-capitalize fw-semibold text-light" style="background-color: #D5C455;">send</button>
+
+                        <div class="mt-5">
+                            <h3 class="fw-medium mt-2" style="font-size: 2.5rem;">follow us here</h3>
+
+                            <div class="mt-3 icons">
+                                <a href="https://www.facebook.com/infaahmeddeepo/" target="_blank"><i class="fa-brands fa-square-facebook me-3" style="font-size: 3.5rem;"></i></a>
+                                <a href="https://www.instagram.com/infa_1602" target="_blank"><i class="fa-brands fa-square-instagram mx-3" style="font-size: 3.5rem;"></i></a>
+                                <a href="https://www.youtube.com/channel/UCoBqlGVB_tXRNP39_dvToZA" target="_blank"><i class="fa-brands fa-square-youtube mx-3" style="font-size: 3.5rem;"></i></a>
+                                <a href="https://github.com/infaahmed" target="_blank"><i class="fa-brands fa-square-github mx-3" style="font-size: 3.5rem;"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- #################### FOOTER ##################### -->
+        <footer>
+            <p class="fs-4 text-center text-black-50 mt-4">Copyright ©2023 All rights reserved | this template desing by <a href="#" class="fw-bold text-dark">INFA AHMED</a></p>
+        </footer>
+    </main>
+
+
+
+
+
+
+
+
+
+
+    <!-- bootstrap js cdn link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- type js cdn link -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- jquery js cdn link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- waypoint cdn link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js" integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- counter up cdn link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js" integrity="sha512-+/4Q+xH9jXbMNJzNt2eMrYv/Zs2rzr4Bu2thfvzlshZBvH1g+VGP55W8b6xfku0c0KknE7qlbBPhDPrHFbgK4g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- animation on scroll js cnd link -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- swiper js cdn link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- custom js file link -->
+    <script src="main.js"></script>
+</body>
+</html>
